@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <script>
+        console.log(window);
+        console.log(document);
+    </script>
+    <script src="protorype.js"></script>
+    <style>
+        .wrapper{
+            display: flex;
+        }
+        .sectionJS{
+            width:calc(100vw - 350px);
+            background: #d4d4d4;
+            margin: 0 auto;
+        }
+        .aside{
+            background: #ff5500;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="aside asideJsLeft">
+            <div class="asideJsLeft-title">
+                <h5>Aside left</h5>
+            </div>
+            <div class="ul">
+                <li>Lista 1</li>
+                <li>Lista 2</li>
+                <li>Lista 3</li>
+                <li>Lista 4</li>
+                <li>Lista 5</li>
+            </div>
+        </aside>
+        <section class="sectionJS">
+            <div class="sectionJS-block">
+                <h1 class="sectionJS-title">Titulo JS</h1>
+                <article class="sectionJS-article">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quidem ratione ut sapiente in voluptatum laboriosam adipisci minus omnis 
+                    eius debitis architecto obcaecati aliquid veniam dignissimos natus, 
+                    pariatur impedit ab. Nisi.
+                </article>
+            </div>
+        </section>
+        <aside class="aside asideJsRight">
+            <div class="asideJsRight-title">
+                <h5>Aside Right</h5>
+            </div>
+            <div class="ul">
+                <li>Lista 1</li>
+                <li>Lista 2</li>
+                <li>Lista 3</li>
+                <li>Lista 4</li>
+                <li>Lista 5</li>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
